@@ -1,8 +1,13 @@
 import './Home.css'
+import ImageSlider from '../imageSlider/ImageSlider'
 
 function Home() {
   return (
-    <div></div>
+    <main className='main'>
+        <ImageSlider />
+
+        
+    </main>
   )
 }
 
