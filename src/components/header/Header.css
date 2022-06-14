@@ -1,25 +1,46 @@
-.container { 
-    height: 7rem;
-    background-color: #090b13;
-    display: flex;
-    align-items: center;
-    padding: 0 3.6rem;
+.container {
+  height: 7rem;
+  background-color: #090b13;
+  display: flex;
+  align-items: center;
+  padding: 0 3.6rem;
 }
 
 .logo {
-    width: 80px;
+  width: 80px;
 }
 
-.nav-menu{
-    display: flex;
+.nav-menu {
+  display: flex;
 }
 
 .nav-menu a {
-    display: flex;
-    align-items: center;
-    padding: 0 1.2rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1.2rem;
+  text-decoration: none;
+  flex: 10;
 }
 
-.nav-menu a img {
-    height: 2rem;
+.link img {
+  height: 2rem;
+}
+
+span {
+  font-size: 13px;
+  letter-spacing: 1.42px;
+  color: whitesmoke;
+}
+
+.nav-bar {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.user-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20rem;
 }
