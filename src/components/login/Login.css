@@ -1,0 +1,21 @@
+.login-container {
+    position: relative;
+    height: calc(100vh - 70px);
+}
+
+.login-container::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    right: 0;
+    background-image: url('/public/images/login-background.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cta-box {
+    
+}

@@ -9,7 +9,7 @@ function Header() {
           <img src="/images/logo.svg" alt="Logo" className="logo" />
         </div>
         <div className="nav-menu">
-          <Link className="link" to="/home">
+          <Link className="link" to="/">
             <img src="/images/home-icon.svg" alt="" />
             <span>HOME</span>
           </Link>
@@ -32,6 +32,10 @@ function Header() {
           <Link className="link" to="/series">
             <img src="/images/series-icon.svg" alt="" />
             <span>SERIES</span>
+          </Link>
+          <Link className="link" to="/details">
+            <img src="/images/series-icon.svg" alt="" />
+            <span>Details</span>
           </Link>
         </div>
         <img src="/images/viewers-disney.png" alt="" className="user-image" />

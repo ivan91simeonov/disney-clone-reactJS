@@ -9,6 +9,7 @@ import {
   Navigate
 } from 'react-router-dom';
 import Details from './components/details/Details';
+import Login from './components/login/Login';
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <Home />
           <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
-            <Route path="/details" element={<Navigate to={< Details />}/>} />
+            <Route path="/" element={<Home />} />
+            <Route path="/details" element= { <Details />}/>
+            <Route path='/login' element={<Login />} />
           </Routes>
         </Router>
       </div>

@@ -16,15 +16,21 @@ function Details() {
                 <span>Play</span>
             </button>
             <button className='trailer-btn'>
-            <img src="/images/group-icon.png" alt="" />
+            <img src="/images/play-icon-white.png" alt="" />
                 <span>Trailer</span>
             </button>
             <button className='add-button'>
-
+                <span>+</span>
             </button>
             <button className='group-btn'>
-
+                <img src="/images/group-icon.png" alt="" />
             </button>
+        </div>
+        <div className='sub-title'> 
+        Abc
+        </div>
+        <div className="description">
+            ABC
         </div>
     </div>
   )
