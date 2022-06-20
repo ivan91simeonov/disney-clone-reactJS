@@ -1,6 +1,9 @@
 .login-container {
     position: relative;
     height: calc(100vh - 70px);
+    display: flex;
+    align-items: top;
+    justify-content: center;
 }
 
 .login-container::before {
@@ -14,8 +17,47 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.7;
 }
 
 .cta-box {
-    
+    max-width: 65rem;
+    padding: 8rem 4rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}   
+
+.sign-up {
+    width: 100%;
+    background-color: #0063e5;
+    font-weight: bold;
+    padding: 1.7rem 0;
+    color: #f9f9f9;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 250ms;
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+    margin-bottom: 1.2rem;
+}
+
+.sign-up:hover {
+    background-color: #0483ee;
+}
+
+.description {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.cta-img-two {
+    width: 90%;
 }
